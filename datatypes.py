@@ -13,3 +13,8 @@ match CODE:
         print("Not Found")
     case _:
         print("Unknown status code")
+
+# FOR loops example
+CARS = ["Toyota", "Honda", "Ford"]
+for car in CARS:
+    print(car)
