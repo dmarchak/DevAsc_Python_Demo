@@ -3,3 +3,13 @@
 
 MY_COOL_VARIABLE = 42
 print(MY_COOL_VARIABLE)
+
+# Match Statements
+CODE = 200
+match CODE:
+    case 200:
+        print("OK")
+    case 404:
+        print("Not Found")
+    case _:
+        print("Unknown status code")
